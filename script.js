@@ -96,6 +96,27 @@ btn.addEventListener("click",function(){
 });
 
 
+let hero = document.querySelector(".hero");
+
+if(window.innerWidth <= 440){
+  hero.innerHTML = `
+  <div class="img">
+       <img src="/images/heroimg.png" alt="home img" />
+     </div>
+  <div class="content">
+       <h2>Season <span>Sale</span></h2>
+       <h1>MAN'S FASHION</h1>
+       <h3>Min. 35-70% Off</h3>
+       <a class="first">SHOP NOW</a>
+       <a class="second">VIEW MORE</a>
+     </div>`
+     hero.style.flexDirection = `column`;
+     hero.style.textAlign = 'center';
+}
+else{
+  hero.style.display = 'flex';
+}
+
 // /*search bar*/
 
 // let searchForm = document.querySelector('.search-form')
