@@ -1279,7 +1279,19 @@ nav .icons i sup {
 }
 
 
-
+@media screen and (max-width:640px){
+  .hero .content .first{
+    height: 6vmin;
+    font-size: 0.6em;
+    width: 16vmin;
+  }
+  
+  .hero .content .second{
+    height: 6vmin;
+    font-size: 0.6em;
+    width: 16vmin;
+  }
+}
 
 
 /*hero section  on 576px*/
@@ -1300,17 +1312,7 @@ nav .icons i sup {
   }
 
   
-.hero .content .first{
-  height: 3.5vmin;
-  font-size: 0.4em;
-  width: 8.4vmin;
-}
 
-.hero .content .second{
-  height: 3.5vmin;
-  font-size: 0.4em;
-  width: 8.4vmin;
-}
 
 .hero .img img{
   margin-top: 5vmin;
@@ -1324,37 +1326,39 @@ nav .icons i sup {
 
 /*hero section  on 440px*/
 @media screen and (max-width:440px){
-
   .hero .content{
+    margin-top: 10vmin;
     margin-left: 2vmin;
   }
   .hero .content h2{
-    font-size: 0.7em;
+    font-size: 1.8em;
   }
 
   .hero .content h1{
-    font-size: 0.9em;
+    font-size: 2em;
   }
   .hero .content h3{
-    font-size: 0.6em;
+    font-size: 1.5em;
   }
 
   
 .hero .content .first{
-  height: 3.5vmin;
-  font-size: 0.3em;
-  width: 11vmin;
+  height: 8vmin;
+  font-weight: 500;
+  font-size: 0.55em;
+  width: 20vmin;
 }
 
 .hero .content .second{
-  height: 3.5vmin;
-  font-size: 0.3em;
-  width: 12vmin;
+  height: 8vmin;
+  font-weight: 500;
+  font-size: 0.55em;
+  width: 20vmin;
 }
 
 .hero .img img{
-  margin-top: 5vmin;
-  width: 150px;
+  margin-top: 10vmin;
+  width: 250px;
 }
 }
 
@@ -1367,40 +1371,38 @@ nav .icons i sup {
 @media screen and (max-width:340px){
 
   .hero .content{
-    margin-top: 20vmin;
+    margin-top: 10vmin;
     margin-left: 2vmin;
   }
   .hero .content h2{
-    font-size: 0.5em;
+    font-size: 1.6em;
   }
 
   .hero .content h1{
-    font-size: 0.6em;
+    font-size: 1.7em;
   }
   .hero .content h3{
-    font-size: 0.4em;
+    font-size: 1.2em;
   }
 
   
 .hero .content .first{
-  height: 3.5vmin;
-  font-size:3.1px;
-  width: 10vmin;
+  height: 6vmin;
+  font-weight: 500;
+  font-size: 0.5em;
+  width: 20vmin;
 }
 
 .hero .content .second{
-  height: 3.5vmin;
-  font-size:2.8px;
-  width: 10vmin;
-}
-
-.hero img{
-  margin-top: 10vmin;
+  height: 6vmin;
+  font-weight: 500;
+  font-size: 0.5em;
+  width: 20vmin;
 }
 
 .hero .img img{
   margin-top: 10vmin;
-  width: 100px;
+  width: 180px;
 }
 }
 
